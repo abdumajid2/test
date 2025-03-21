@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.7.2-web/css/all.css">
 </head>
 <body>
    <header class="p-[20px]">
@@ -14,5 +15,28 @@
             <img src="./russia.png" alt="Russian Flag" class="w-6 h-4 rounded-sm">
         </div>
    </header>
+
+   <section class="xl:flex p-[20px] flex flex-col-reverse">
+    <div>
+        <h1 class="xl:text-[80px]">Подбор работы для граждан СНГ и ЕАЭС</h1>
+        <div class="bg-gray-900 text-white rounded-lg p-4 max-w-md w-full mt-6 shadow-lg flex items-center">
+            <div class="flex-1">
+                <h2 class="text-lg font-semibold">Пройдите опрос</h2>
+                <p class="text-sm text-gray-300">Подберем подходящие вакансии с зарплатой</p>
+                <span class="bg-gray-700 px-2 py-1 rounded-lg inline-block mt-2">от <strong>3 000 р</strong><button class="bg-white text-gray-900 px-4 py-2 rounded-lg shadow-md ml-4">Пройти опрос</button></span>
+            </div>
+            <img src="./Objects 2.png" class="w-[40%] hidden xl:block" alt="">
+            <i class="fa-solid fa-chevron-right xl:hidden"></i>
+        </div>
+        <div class="flex gap-[15px] pt-[50px]">
+        <button class="bg-[#D7B18D] text-gray-900 px-4 py-2 rounded-lg shadow-md ml-4">Подобрать работу </button>
+        <img src="./Group 2180.svg" class="w-[52px] h-[52px]" alt="">
+    </div>
+    </div>
+    <div>
+        <img src="./Group 2145.svg" alt="">
+    </div>
+   </section>
 </body>
 </html>
+<!-- npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -->
